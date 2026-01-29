@@ -1,11 +1,25 @@
-# B-Boy YouTube Data Analysis
+## Overview
 
-This project demonstrates an end-to-end data workflow using public YouTube data related to breaking (b-boy) battles.
+This project demonstrates a small end-to-end data pipeline that ingests
+YouTube metadata via the YouTube Data API, loads it into PostgreSQL, and
+enables SQL-based analysis.
 
-The goal is to show the ability to:
-- Pull data from a public API
-- Store data in a PostgreSQL database
-- Query the data using SQL
-- Analyze and visualize results in R
+The goal is to demonstrate clean ingestion, idempotency, and schema design
+rather than scale.
 
-This is a small, focused project intended to demonstrate core data engineering and analysis skills.
+## Tech Stack
+- Python
+- PostgreSQL
+- YouTube Data API
+- GitHub
+
+## How It Works
+1. Fetches video metadata via API
+2. Normalizes nested JSON into a relational table
+3. Inserts data safely using idempotent logic
+4. Enables repeatable SQL analysis
+
+## Future Improvements
+- Enrich videos with view/like counts
+- Track metric changes over time
+- Schedule ingestion
