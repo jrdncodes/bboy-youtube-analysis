@@ -1,4 +1,4 @@
-## Youtube Analysis
+# Youtube Analysis
 
 A small project demonstrating a complete data pipeline to fetch YouTube video metadata, store it in a database, and analyze it with SQL.
 
