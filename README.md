@@ -1,11 +1,22 @@
-## Overview
+## Youtube Analysis
 
-This project demonstrates a small end-to-end data pipeline that ingests
-YouTube metadata via the YouTube Data API, loads it into PostgreSQL, and
-enables SQL-based analysis.
+A small project demonstrating a complete data pipeline to fetch YouTube video metadata, store it in a database, and analyze it with SQL.
 
-The goal is to demonstrate clean ingestion, idempotency, and schema design
-rather than scale.
+## Table of Contents
+- Background
+- Tech Stack
+- How it works
+
+## Background
+This project is a learning/demo project for working with APIs, databases, and SQL analysis. It collects video information from YouTube using the YouTube Data API, stores it safely in PostgreSQL, and allows you to run queries on the data.
+
+The focus is on:
+
+Clean ingestion – making sure data is correct and consistent.
+
+Idempotency – running the pipeline multiple times won’t create duplicates.
+
+Good database design – structured tables for easy SQL analysis.
 
 ## Tech Stack
 - Python
