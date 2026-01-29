@@ -29,8 +29,3 @@ Good database design – structured tables for easy SQL analysis.
 2. Normalizes nested JSON into a relational table
 3. Inserts data safely using idempotent logic
 4. Enables repeatable SQL analysis
-
-## Future Improvements
-- Enrich videos with view/like counts
-- Track metric changes over time
-- Schedule ingestion
