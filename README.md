@@ -10,20 +10,16 @@ A small project demonstrating a complete data pipeline to fetch YouTube video me
 ## Background
 This project is a learning/demo project for working with APIs, databases, and SQL analysis. It collects video information from YouTube using the YouTube Data API, stores it safely in PostgreSQL, and allows you to run queries on the data.
 
-The focus is on:
-
+It focuses on:
 Clean ingestion – making sure data is correct and consistent.
-
 Idempotency – running the pipeline multiple times won’t create duplicates.
-
 Good database design – structured tables for easy SQL analysis.
 
 ## Tech Stack
 - Python
 - PostgreSQL
 - YouTube Data API
-- GitHub
-
+  
 ## How It Works
 1. Fetches video metadata via API
 2. Normalizes nested JSON into a relational table
