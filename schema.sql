@@ -8,5 +8,6 @@ CREATE TABLE IF NOT EXISTS public.videos (
     title TEXT NOT NULL,
     published_at DATE NOT NULL,
     view_count BIGINT,
+    like_count
     ingested_at TIMESTAMP DEFAULT now()
 );

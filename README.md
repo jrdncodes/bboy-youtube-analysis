@@ -4,7 +4,7 @@
 ## Introduction
 Youtube Analysis Pipeline is a backend data pipeline that collects video metadata from Youtube. It transforms the data into a structured format, and stores it in PostGreSql for analysis.
 
-The pipeline enables users to query and analyse video performance data. This includes views, published data and engagement metrics.
+The pipeline enables users to query and analyse video performance data. This includes views, like counts, published data and engagement metrics.
 
 The current dataset focuses on Bboy-battle videos, however you may
 change it to whatever you like.
